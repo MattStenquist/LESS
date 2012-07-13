@@ -1,0 +1,83 @@
+/**** DEFINE STYLES ***/
+ 
+//BODY STYLES 
+@bg : #fff000; // Background 
+@center : 0 auto;
+
+
+//WIDTH and HEIGHT @'s
+
+// Width
+@wrapper : 960px; // Wrapper width
+@title : 880px; // Title Width;
+@content : 400px; // Content Block Width
+
+//Heights 
+@h : 700px; // Sites Height 
+@hc : 20px; // Content Height; 
+
+//BORDERS 
+@radius : .45ex; 
+
+// FONTS 
+@text : #000; // P - Text is Black
+@text2 : #FFF; // P - Text is White
+@textsize : 40px; // P - Text Size 
+@bold : bold; // Bold Text 
+@uppercase : uppercase; // P-Uppercase
+@spaced : 5px;
+@font : 'Fredoka One', cursive; // This makes the font Fredoka One 
+
+
+// CONTENT STYLES
+@bgcc : #FFF; // Background - Content Color
+
+//Padding
+@paddingX : 10px;
+@paddingY : 10px;
+
+
+/**** END STYLES ****/
+
+ 
+body { background: @bg;}
+
+.title { 
+	color : @text; 
+	font-size: @textsize; 
+	font-style: @bold; 
+	text-transform : @uppercase; 
+	width: @title;
+	font-family: @font;
+	letter-spacing: @spaced;
+	margin: @center;
+	}
+.title [class="less"] { color:@text2;}
+
+#main {
+	background:#000;
+	width: @wrapper;
+	min-height: @h;
+	border-radius: @radius;
+	-moz-radius: @radius;
+	-o-radius: @radius;
+	margin:@center;
+}
+
+#content { background:@bgcc; width: @wrapper; height: @hc;  }
+
+#footer { width: @wrapper; margin: @center; }
+.footer { 
+	width: @wrapper; 
+	font-family: @font;
+	letter-spacing: @spaced; 
+	margin: @center; 
+	color : @text ; 
+	padding-top: @paddingY; 
+}
+
+
+
+
+
+
