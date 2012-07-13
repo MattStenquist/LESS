@@ -1,13 +1,3 @@
-//HI THIS IS MY FIRST GIT REPO
+This is a simple barebones web skeleton that uses {LESS} markup in the CSS. 
 
-//I'VE MADE SOME CSS BUTTONS THAT YOU'RE MORE THAN WELCOME TO USE, ALTER, AND REPLICATE.
-
-//I'VE LEFT COMMENTS IN THE CSS SO YOU CAN ADD YOUR OWN STUFF 
-
-//THANKS 
-
-//CSS BUTTONS BY MATT STENQUIST
-
-http://dig.ital.me/sandbox/css-buttons/index.html
-
-^Live DEMO of Simple CSS Buttons 
+Feel free to clone this and use it!
